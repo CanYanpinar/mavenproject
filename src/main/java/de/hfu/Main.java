@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
-        System.out.printf(s.toUpperCase());
+        System.out.println(s.toUpperCase());
         scanner.close();
     }
 
